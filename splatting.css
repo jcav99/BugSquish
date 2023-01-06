@@ -1,0 +1,13 @@
+#gameboard{
+    width:75%;
+    background-color:turquoise;
+    float:left;
+}
+#messageboard{
+    width:25%;
+    float:right;
+}
+.bug{
+    width:10%;
+    height:10%;
+}
