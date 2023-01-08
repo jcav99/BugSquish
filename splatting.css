@@ -7,7 +7,21 @@
     width:25%;
     float:right;
 }
-.bug{
-    width:10%;
-    height:10%;
+.bugs{
+    position:relative;
+}
+div div img{
+    position:absolute;
+    top:0;
+    left:0;
+    height:7rem;
+    width:7rem;
+}
+.splat{
+    visibility:hidden;
+}
+#gameboard{
+    display:grid;
+    grid-template-columns:repeat(4,9rem);
+    grid-template-rows:repeat(4,9rem);
 }

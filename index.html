@@ -8,27 +8,72 @@
     <link rel="stylesheet" href="splatting.css">
     <script src="bugsplat.js"></script>
 </head>
-<body>
+<body onload="initialize();">
+    <h1>Splat the bugs!</h1>
     <div id="gameboard">
-        <h1>Splat the bugs!</h1>
-        <img src="Images/peeper.png" class="bug" id="1" onclick="squishbug();">
-        <img src="Images/boomerang.png" class="bug" id="2" onclick="squishbug();">
-        <img src="Images/peeper.png" class="bug" id="3" onclick="squishbug();">
-        <img src="Images/boomerang.png" class="bug" id="4" onclick="squishbug();">
-        <img src="Images/crab.png" class="bug" id="5" onclick="squishbug();">
-        <img src="Images/crab.png" class="bug" id="6" onclick="squishbug();">
-        <img src="Images/peeper.png" class="bug" id="7" onclick="squishbug();">
-        <img src="Images/peeper.png" class="bug" id="8" onclick="squishbug();">
-        <img src="Images/crab.png" class="bug" id="9" onclick="squishbug();">
-        <img src="Images/boomerang.png" class="bug" id="10" onclick="squishbug();">
-        <img src="Images/crab.png" class="bug" id="11" onclick="squishbug();">
-        <img src="Images/peeper.png" class="bug" id="12" onclick="squishbug();">
-        <img src="Images/peeper.png" class="bug" id="13" onclick="squishbug();">
-        <img src="Images/crab.png" class="bug" id="14" onclick="squishbug();">
-        <img src="Images/peeper.png" class="bug" id="15" onclick="squishbug();">
+        <div class="bugs" id="bug1">
+            <img src="Images/peeper.png" class="bug" id="bugimg1" onclick="squishbug(1);">
+            <img src="Images/splat.png" class="splat" id="splat1">
+        </div>
+        <div class="bugs" id="bug2">
+            <img src="Images/crab.png" class="bug" id="bugimg2" onclick="squishbug(2);">
+            <img src="Images/splat.png" class="splat" id="splat2">
+        </div>
+        <div class="bugs" id="bug3">
+            <img src="Images/peeper.png" class="bug" id="bugimg3" onclick="squishbug(3);">
+            <img src="Images/splat.png" class="splat" id="splat3">
+        </div>
+        <div class="bugs" id="bug4">
+            <img src="Images/boomerang.png" class="bug" id="bugimg4" onclick="squishbug(4);">
+            <img src="Images/splat.png" class="splat" id="splat4">
+        </div>
+        <div class="bugs" id="bug5">
+            <img src="Images/crab.png" class="bug" id="bugimg5" onclick="squishbug(5);">
+            <img src="Images/splat.png" class="splat" id="splat5">
+        </div>
+        <div class="bugs" id="bug6">
+            <img src="Images/peeper.png" class="bug" id="bugimg6" onclick="squishbug(6);">
+            <img src="Images/splat.png" class="splat" id="splat6">
+        </div>
+        <div class="bugs" id="bug7">
+            <img src="Images/crab.png" class="bug" id="bugimg7" onclick="squishbug(7);">
+            <img src="Images/splat.png" class="splat" id="splat7">
+        </div>
+        <div class="bugs" id="bug8">
+            <img src="Images/boomerang.png" class="bug" id="bugimg8" onclick="squishbug(8);">
+            <img src="Images/splat.png" class="splat" id="splat8">
+        </div>
+        <div class="bugs" id="bug9">
+            <img src="Images/peeper.png" class="bug" id="bugimg9" onclick="squishbug(9);">
+            <img src="Images/splat.png" class="splat" id="splat9">
+        </div>
+        <div class="bugs" id="bug10">
+            <img src="Images/peeper.png" class="bug" id="bugimg10" onclick="squishbug(10);">
+            <img src="Images/splat.png" class="splat" id="splat10">
+        </div>
+        <div class="bugs" id="bug11">
+            <img src="Images/crab.png" class="bug" id="bugimg11" onclick="squishbug(11);">
+            <img src="Images/splat.png" class="splat" id="splat11">
+        </div>
+        <div class="bugs" id="bug12">
+            <img src="Images/boomerang.png" class="bug" id="bugimg12" onclick="squishbug(12);">
+            <img src="Images/splat.png" class="splat" id="splat12">
+        </div>
+        <div class="bugs" id="bug13">
+            <img src="Images/crab.png" class="bug" id="bugimg13" onclick="squishbug(13);">
+            <img src="Images/splat.png" class="splat" id="splat13">
+        </div>
+        <div class="bugs" id="bug14">
+            <img src="Images/peeper.png" class="bug" id="bugimg14" onclick="squishbug(14);">
+            <img src="Images/splat.png" class="splat" id="splat14">
+        </div>
+        <div class="bugs" id="bug15">
+            <img src="Images/crab.png" class="bug" id="bugimg15" onclick="squishbug(15);">
+            <img src="Images/splat.png" class="splat" id="splat15">
+        </div>
     </div>
     <div id="messageboard">
-
+        <h2 id="messages"></h2>
     </div>
 </body>
 </html>
