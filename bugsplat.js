@@ -26,7 +26,7 @@ function squishbug(num){
     console.log(bugsSplatted);
     if (bugsSplatted <= 8){
         num = generateRandomNum(1,8);
-        while (messagesUsed.find(num) != undefined){
+        while (messagesUsed.find(element => element == num){
             num = generateRandomNum(1,8)
         }
         messageBoard.innerHTML = window["message"+num];
