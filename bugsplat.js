@@ -26,14 +26,14 @@ function squishbug(num){
     console.log(bugsSplatted);
     if (bugsSplatted <= 8){
         num = generateRandomNum(1,8);
-        while (messagesUsed.find(element => element == num){
+        while (messagesUsed.indexOf(num) != -1){
             num = generateRandomNum(1,8)
         }
         messageBoard.innerHTML = window["message"+num];
         messagesUsed.push[num];
     } else{
         num = generateRandomNum(9,15);
-        while (messagesUsed.find(num) != undefined){
+        while (messagesUsed.indexOf(num) != -1){
             num = generateRandomNum(9,15)
         }
         messageBoard.innerHTML = window["message"+num];
